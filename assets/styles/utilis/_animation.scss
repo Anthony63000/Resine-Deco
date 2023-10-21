@@ -1,0 +1,14 @@
+
+@keyframes flyingFrame {
+    0% {
+        transform: translate(14px, 14px);
+    } 25% {
+        transform: translate(-28px, 14px);
+    } 50% {
+        transform: translate(-28px, -28px);
+    } 75% {
+        transform: translate(14px, -28px);
+    } 100% {
+        transform: translate(14px, 14px);
+    }
+}
